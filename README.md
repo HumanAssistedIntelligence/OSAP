@@ -15,6 +15,8 @@ The Open Source Agent Protocol (OSAP) facilitates an open standard that allows A
 
 Every user on HAI.AI is assigned a unique public/private key pair. While these keys have encryption capabilities, within OSAP, their primary function mirrors PGP's or JWT's signature functionalities. Dialog steps can be authenticated using a chain of these signatures. It's important to note that, unlike blockchain, the objective isn't to synchronize a unified state across all participating systems. The emphasis is on confirming identity, content integrity, and data reception acknowledgement.
 
+TODO -  Raw Public Keys https://datatracker.ietf.org/doc/html/rfc7250
+
 ### Centralized Key Registries:
 
 A central public key repository is essential. HAI.AI will manage one such registry, with root certificates from individual hosts serving as proof of key authenticity.
